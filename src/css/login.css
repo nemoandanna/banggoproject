@@ -1,0 +1,87 @@
+.login_r{
+    margin-top: 107px;
+    margin-right: 146px;
+    border: 1px solid #999;
+    height: 430px;
+    width: 375px;
+}
+.loginstyle li{
+    float: left;
+    width: 124px;
+    height: 40px;
+    border: 1px solid #999;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-right: 0;
+}
+.loginstyle li:first-child{
+    border-left: 0;
+}
+.styletwo{display: none;}
+.styleone input,.styletwo input{
+    width: 170px;
+    height: 30px;
+    
+}
+.loginstyle .bordert{border-top: 2px solid orangered;}
+.enterpst{
+    position: relative;
+}
+.mmpo{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.styleone #loginusename{
+    margin-left: 14px;
+}
+.styletwo #loginphone{
+    margin-left: 14px;
+}
+.styleone li,.styletwo li{
+    margin-top: 40px;
+}
+#btnlogin{
+
+    width: 80px;
+    height: 30px;
+    background: orangered;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 120px;
+}
+#worning{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 34px;
+    padding-left: 20px;
+
+}
+.enterpst .mmpo{
+    margin-top: 40px;
+}
+.enterpst .mmpo #randomcode{
+    width: 170px;
+    height: 30px;
+}
+.changeworning{
+    margin-left: 256px;
+    margin-top: 20px;
+}
+.changeworning .pscw{
+    width: 100px;
+    left: 0;
+    top:-84px;
+}
+#imgps{
+    margin-left: 60px;
+    width: 300px;
+    height: 80px;
+    background:url('../img/loginps.png') no-repeat 0 14px;
+}
+label{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 14px;
+}

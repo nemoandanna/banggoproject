@@ -1,0 +1,299 @@
+body{
+    width: 100%;
+}
+#topimg {background: #89ddff;}
+#top_little{border-bottom:1px solid #999;width: 100%;height: 32px; }
+#top_little .top_little_l{
+    float: left;
+    display: block;color: #999;font-size: 12px;
+    height: 32px;line-height: 32px;
+}
+#top_little .top_little_r{
+    float: right;
+    width: 465px;
+}
+#top_little .top_little_r li{
+    float: left;
+    margin-right: 14px;
+}
+#top_little .top_little_r li a{
+    color:#999;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+}
+.top_searchl>a{
+    display: block;
+    opacity: 1;
+}
+.seach_box #inputTxt{
+    border:1px solid red;
+    display: block;
+    height: 32px;
+    width: 290px;
+}
+.top_searchc{
+    width: 750px;
+    padding-top: 25px;
+    padding-right: 65px;
+}
+.top_searchc #inputTxt{font-size: 12px;padding: 5px ;}
+.top_searchc .searchBTN{
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    height: 32px;
+    background: #d51819;
+    color:white;
+    
+}
+.seach_nav a{
+    display: inline-block;
+    color:red;
+    font-size: 12px;
+    padding-right: 15px;
+    margin-top: 10px;
+    border-right:1px solid #ccc; 
+}
+.seach_nav a:nth-child(2){
+    color:#999;
+}
+.seach_nav a:nth-child(5){
+    color:#999;
+}
+.top_searchr span{
+    display: block;
+    margin-top: 27px;
+    margin-right: 27px;
+    font-size: 14px;
+}
+.top_searchr span i{
+    color:red;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#index_nav .navl{
+    width: 557px;
+    height: 40px;
+}
+#index_nav .navl>li{
+   float: left;
+   /* overflow: hidden; */
+   position: relative;
+}
+#index_nav .navl>li>ul{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;  
+    width: 400px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 2px -2px 2px ;
+    border-left:2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    z-index: 100000;
+}
+#index_nav .navl>li>ul>li{
+    width: 33.3333%;
+    border-right: 1.2px dotted #999;
+    float: left;
+
+}
+#index_nav .navl>li>ul>li>h3{
+    color:red;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#index_nav .navl>li>ul>li>a{
+    font-size: 12px;
+}
+#index_nav .navl>li>ul>li:last-child{
+    border-right: none;
+}
+#index_nav .navl>li>ul>li a{
+    display: block;
+}
+#index_nav .navl>li a{
+    font-size: 14px;
+    line-height: 42px;
+    margin-left: 18px;
+    margin-right: 18px;
+    color:black;
+}
+#index_nav .navr{
+    width: 450px;
+}
+#index_nav .navr>li{
+    float: left;
+    margin-top: -10px;
+    margin-right: 22px;
+    cursor: pointer;
+}
+#banner .contentBox{
+    
+    width: 1263px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+#banner .contentBox ul{
+    width: 6315px;
+
+    position: absolute;
+}
+#banner .contentBox li{
+    float: left;
+    
+}
+#banner .contentBox li img{
+    display: block;
+    width: 1263px;
+    height: 400px;
+}
+#banner{
+    position: relative;
+}
+#banner .showImg{
+    display: inline-block;
+    margin: 25px auto;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left:-480px ;
+
+}
+#banner .showImg img{
+    display: block;
+    width: 220px;
+    height: 110px;
+}
+#banner .showImg li{
+     float: left;
+     margin-right: 10px;
+     border-right:1px solid #999; 
+     padding-right:10px ;
+}
+#banner .showImg li:last-child{
+    border-right:0;
+}
+.hightactive img{
+    border-bottom:4px solid red; 
+}
+#jsdom{
+    background: #f7f7f7;
+    margin-top: 150px;}
+#jsdom h2{
+    font-size: 25px;
+    line-height: 80px;
+    font-weight: bold;
+    padding-left: 45px;
+    position: relative;
+    
+}
+#jsdom h2::before{
+    content: '';
+    width:4px;
+    height: 23px;
+    background: orangered;
+    display: block;
+    position: absolute;
+    left: 24px;
+    top: 29px;
+
+
+}
+#jsdom li{
+    float: left;
+}
+#jsdom li:hover{
+    opacity: 0.65;
+}
+#jsdom li{
+    transition:all .4s;
+}
+#jsdom .todayhot img{
+    display: block;
+    height: 230px;
+    width: 230px;
+}
+#jsdom .todayhot h4{
+    overflow: hidden;
+    padding: 12px 12px;
+}
+.todayhot li,.mancloths li,.girlcloths li,.childcloths li,.shoespage li{
+    margin-right: 6px;
+}
+
+ .shoespage h4 a:first-child,.todayhot h4 a:first-child,.mancloths h4 a:first-child,.girlcloths h4 a:first-child,.childcloths h4 a:first-child{
+    color:#919191;
+    font-size: 15px;
+}
+ .todayhot>li>span,.mancloths>li>span,.gircloths>li>span,.childcloths>li>span{
+    display: block;
+    padding: 12px 12px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.todayhot>li>span>b,.mancloths>li>span>b,.girlcloths>li>span>b,.childcloths>li>span>b,.shoespage>li>span>b{
+    float: left;
+    color: orangered;
+}
+#jsdom .container h2 .mmp{
+
+    color:orangered;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.todayhot>li>span>i,.mancloths>li>span>i,.girlcloths>li>span>i,.childcloths>li>span>i,.shoespage>li>span>i{
+    float: right;
+    margin-right: 95px;
+    font-size: 12px;
+    margin-top: 2px;
+    color:919191;
+    text-decoration: line-through;
+}
+.todayhot h4 a:last-child,.mancloths h4 a:last-child,.girlcloths h4 a:last-child,.childcloths h4 a:last-child,.shoespage h4 a:last-child{
+    background: #fdedec;
+    color:#f8584f;
+    border: 1px solid #f8584f;
+    font-size: 12px;
+    margin-left: 40px;
+}
+.mancloths li>a>img,.todayhot li>a>img,.girlcloths li>a>img,.childcloths li>a>img,.shoespage li>a>img{
+    display: block;
+    width: 230px;
+    height: 230px;
+}
+.mancloths li:first-child img,.childcloths li:first-child img{
+    display: block;
+    width: 472px;
+    height: 325px;
+}
+.girlcloths li:nth-child(4) img,.shoespage li:nth-child(4) img{
+    display: block;
+    width: 472px;
+    height: 325px;
+}
+.girlcloths li:nth-child(n+4),.shoespage li:nth-child(n+4){
+    margin-top: 8px;
+}
+.mancloths li,.childcloths li{
+    height: 325px;
+    margin-right: 5px;
+}
+.mancloths li:nth-child(4),.childcloths li:nth-child(4){
+    margin-right: 0;
+}
+.mancloths li:nth-child(n+5),.childcloths li:nth-child(n+5){
+    margin-top: 8px;
+}
+footer .container .endimg{
+    height: 589px;
+    width: 1200px;
+    background: url('../img/endimg.png') no-repeat
+ -20px 10px;}

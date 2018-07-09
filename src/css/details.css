@@ -1,0 +1,370 @@
+
+.mulu span a{
+    color:black;
+    font-size: 14px;
+}
+#detail_mian{margin-top: 20px;}
+.bigpic{
+    margin-top: 15px;
+    width: 480px;
+    height: 480px;
+    position: relative;
+
+}
+.bigpic>img{
+    display: block;
+    width: 480px;
+    height: 480px;
+}
+.bigpic .saomiao {
+    position: absolute;
+    display: none;
+    height: 240px;
+    width: 240px;
+    background: #999;
+    opacity: 0.4;
+    
+}
+.bigpic #saomiaoshow{
+    position: absolute;
+    height: 480px;
+    width: 480px;
+    z-index: 10000;
+    left: 540px;
+    top: 0px;
+    display: none;
+    overflow: hidden;
+}
+
+.bigpic #saomiaoshow>img{
+    position: absolute;
+    display: block;
+    height: 1000px;
+    width: 1000px;
+    left: 2px;
+    top: 2px;
+}
+.bigpic img:first-child{
+    display: block;
+    width: 480px;
+}
+.smallpic ul .bordercolor{
+    border: 1px solid orangered;
+}
+.smallpic ul{
+   height: 100px;
+}
+.smallpic ul li{
+    border: 1px solid #c7c7c7;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    margin-top:20px ;
+    margin-right: 21px;
+
+}
+.smallpic ul li:first-child{
+    margin-left: 1px;
+}
+.smallpic ul li img{
+    display: block;
+    height: 78px;
+    width: 78px;
+}
+.smallpic ul li:last-child{
+    margin-right: 0;
+}
+.smallpic ul li{
+    float: left;
+}
+.datail_r {
+    width: 670px;
+    height: 450px;
+    font-weight: bold;
+}
+.datail_r .goodsstyles {
+    padding-top: 10px;
+}
+.datail_r .goodsstyles a{
+    color: black;
+}
+.goodsinformation{
+    margin-top: 20px;
+    padding: 15px;
+    width: 670px;
+    height: 90px;
+    background: rgb(243, 242, 242);
+}
+
+.goodsinformation li:nth-child(1) b{
+    font-size: 14px;
+    color:#222;
+}
+.goodsinformation li:nth-child(1) strong{
+    color:#f8584f;
+    font-size: 22px;
+}
+.goodsinformation li:nth-child(1) i{
+    padding-left: 30px;
+    color:#222;
+    font-size: 14px;
+
+} 
+.goodsinformation li:nth-child(1) em{
+    text-decoration: line-through;
+    color:#696969;
+    font-size: 12px;
+}
+.goodsinformation li:nth-child(1) span{
+    background-color: #f84646;
+    float: right;
+    padding: 3px 10px;
+    font-size: 12px;
+}
+.goodsinformation li:nth-child(2){
+    margin-top: 17px;
+}
+.vipl{
+    color:#696969;
+    font-size: 12px;
+}
+.vipr{
+    color:#696969;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.goodsdate{
+    margin-top: 25px;
+}
+.goodsdate .first{
+    width: 90px;
+    color:#696969;
+    font-size: 12px;
+}
+.goodsdate .first span{
+    color:#f8584f;
+    display: inline-block;
+    margin: 0 4px;
+}
+.goodsdate .second{
+    width: 140px;
+    color:#696969;
+    font-size: 12px;
+    text-align: center;
+    border-left: 1px solid #696969;
+}
+.goodsdate .second span{
+    color:#f8584f;
+    display: inline-block;
+    margin: 0 4px;
+}
+.goodsdate .three{
+    width: 140px;
+    color:#696969;
+    font-size: 12px;
+    border-left: 1px solid #696969;
+    text-align: center;
+}
+.goodsdate .three span{
+    color:#f8584f;
+    display: inline-block;
+    margin: 0 4px;
+}
+.colorlist{
+    margin-top: 20px;
+    font-size: 14px;
+    color:black;
+}
+.colorlist b{
+    color:#666;
+    margin-left: 2px;
+    font-size: 12px;
+}
+.mianselectshow{
+    padding-top: 10px;
+
+}
+.mianselectshow a{
+    display: block;
+    float: left;
+    border: 1px solid #DCDCDC;
+    margin-right: 10px;
+
+}
+.mianselectshow a:first-child{
+    margin-left: 1px;
+}
+.mianselectshow .selectborder{
+    border:1px solid orangered;
+}
+.mianselectshow a img{
+    width: 51px;
+    height: 51px;
+}
+.sizelist{
+    margin-top: 20px;
+    font-size: 14px;
+    color:black;
+}
+.sizelist b {
+    color:#666;
+    margin-left: 2px;
+    font-size: 12px;
+}
+.sizelist .choosesize{
+    margin-top: 10px;
+}
+.sizelist .choosesize a{
+    display: block;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #DCDCDC;
+    font-size: 12px;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color:#696969;
+}
+.sizelist .choosesize a:hover{
+    border: 1px solid orangered;
+}
+.detailsnum{
+    margin-top: 20px;
+}
+.detailsnum dl dt{
+    font-size: 14px;
+    color:black;
+    line-height: 27px;
+}
+.detailsnum dl dd{
+    height: 27px;
+}
+.detailsnum dl dd #btn_num_decrease{
+    border: 1px solid #DCDCDC;
+    display: inline-block;
+    color:#999;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+.detailsnum dl dd #btn_num_add{
+    border: 1px solid #DCDCDC;
+    display: inline-block;
+    color:#999;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+.buynumchange .shopnum{
+    width: 42px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid #DCDCDC;
+}
+.numworning{
+    background: rgb(243, 242, 242);
+    display: none;
+    font-size: 12px;
+    font-weight: normal;   
+    margin-left: 20px;
+}
+.btn_buycar #enter_buycar{
+    display: block;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    background-color: #F8584F;
+    border-radius: 2px;
+    color:white;
+    margin-top: 20px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.point_out{
+    height:100px;
+    width: 520px;
+    background: url('../img/pointout1.png') no-repeat 0 12px;
+}
+#scrrenall{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background: rgb(39, 38, 38);
+    display: none;
+}
+body{
+    position: relative;
+    height: 900px;
+    width: 100%;
+}
+#fixedbuycar{
+    width: 700px;
+    height: 210px;
+    position: fixed;
+    left: 50%;
+    top:50%;
+    margin: -105px;
+    margin-left: -350px;
+    background: white;
+    display: none;
+
+}
+.buycarworning {
+    border-bottom: 1px solid #ccc;
+}
+.buycarworning .worning1{
+    font-size: 14px;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 15px;
+    color:#333;
+}
+#btnclosecar{
+    margin: 10px;
+    border: 1px solid #999;
+    display: block;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    text-align: center;
+    cursor: pointer;
+    color:#999;
+}
+.carsuccess{
+    display: block;
+    width: 100%;
+    height: 56px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.carend{
+    margin: 35px auto;
+    width: 300px;
+    
+}
+.carend a{
+    display: block;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 2px;
+}
+.carendl a:first-child{
+    color:white;
+    background: #f84646;
+}
+.carendr a:first-child{
+    color:#999;
+    border:1px solid #999;
+    
+}

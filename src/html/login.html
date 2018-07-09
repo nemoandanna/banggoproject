@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录界面</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../libs/jquery.js"></script>
+    <script src="../js/login.js"></script>
+
+</head>
+<body>
+    <div id="login">
+        <div class="container clearfix">
+            <div class="login_l fl">
+                <img src="../img/login1.png" alt="">
+            </div>
+            <div class="login_r fl">
+                <form action="">
+                    <ul class="loginstyle clearfix">
+                        <li class="bordert">账号登录</li>
+                        <li>手机登录</li>
+                        <li class="fr">其他登录</li>
+                    </ul>
+                    <div class="styleone">
+                        <li><label for="">用户名：</label>
+                        <input type="text" id="loginusename" name="username"></li>
+                        <li><label for="">登录密码：</label>
+                        <input type="text" id="loginpwd" name="pwd"></li>
+                    </div>
+                    <div class="styletwo">
+                        <li><label for="">手机号：</label>
+                        <input type="text" id="loginphone" name="username"></li>
+                        <li><label for="">登录密码：</label>
+                        <input type="text" id="loginpwd" name="pwd"></li>
+                    </div>
+                    <div class="enterpst">
+                            <li class="mmpo">
+                                    <label for="">验证码:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                    <input type="text" id="randomcode">
+                                    <i class="imgcontent">
+                                        <img src="../img/yzm1.jpg" alt="">
+                                    </i>
+                                    <span class="changeworning">点击换一张<i class="pscw">
+                                        验证码输入有误！
+                                    </i></span>
+                                    
+                                </li>
+                    </div>
+                    <input type="button" id="btnlogin" value="登录"></input><span id="worning"></span>
+                </form>
+                <div id="imgps">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

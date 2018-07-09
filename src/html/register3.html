@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../libs/jquery.js"></script>
+    <style>
+       ul,li{list-style: none;}
+    </style>
+</head>
+<body>
+    <h1>恭喜你注册成功!</h1>
+    <h2>页面在<span></span>秒后返回首页.....</h2>
+    <div id="output"></div>
+    <script>
+       jQuery(function($){
+           let timecount = 6000;
+
+            let timer = setInterval(()=>{
+                timecount-=1000;
+                $('h2 span').text(timecount/1000).css({color:'red'});
+                if(timecount<=0){
+                    clearInterval(timer);
+                    window.location.href = 'index.html';
+                }
+           },1000);
+
+           
+       })
+    // let brandstr = 'Metersbonwe ME＆CITY MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 Metersbonwe ME＆CITY MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿 MISSMARY Haoduoyi Canshow ANMO 菲铂娅 骊语 寐丽 妮芬儿';
+    // let brandarr = brandstr.split(' ');
+    // let styleclothsstr = '女高腰基本款紧身牛仔长裤 女款短款修身翻领机车PU皮衣 女潮流翻边针织裤 情侣款-女美女与野兽精致绣花夹克 女基本款修身罗纹套头毛衫 女落肩廓形破洞牛仔夹克 【春季新品】女条纹打底衫 女袖口打结翻领系带轻薄风衣 女后背印字中长派克 长袖衬衫女款显瘦白衬衣 女圆领肌理毛织马甲 女针织毛呢羊毛连帽夹克短外套 女大格仔呢料大衣 女基本数字字母针织裤 女宽松打结阔腿裤 女卫衣款圆领套头撞色 【春季新品】女复古格纹短茄克 女MTEE 迪士尼米奇系列卫衣连衣裙 外套女款中长款风衣韩宽松文艺 女条纹大喇叭袖衬衫 女收腰女性化细节牛仔派克 女针织牛仔慢跑裤 【春季新品】女休闲撞色印花外套 女长款复古V领羊毛麻修身毛织开衫 【春季新品】女牛仔衬衫 女棒球领短款简约长袖夹克 女脚口不规则牛仔小脚裤 女基本牛津纺衬衫 女休闲基本款格纹衬衫 女式大廓形麻质衬衫 女情侣基本款牛仔夹克 女腰部褶裥送腰带短裤 女A型百搭可爱大衣 女贴章男友牛仔裤 女摇滚拼接连帽长款夹克外套 女飞机染整长款衬衫 女牛仔长裤潮撞色小脚裤子铅笔裤 女时髦扩型衬衫 女套头卫衣韩版灯笼袖长袖 女膝盖割破9分牛仔长裤 女摇滚拼接连帽长款夹克外套女短箱格仔衬衫 女时尚显瘦宽松白色七分阔腿裤 女破洞弹力彩色牛仔紧身七分裤 女防紫外线基本开衫 女MTEE 张权系列撞色袖子卫衣 女连帽中长牛仔派克 外套女款中长款风衣韩宽松文艺 女条纹大喇叭袖衬衫 女收腰女性化细节牛仔派克 女针织牛仔慢跑裤 【春季新品】女休闲撞色印花外套 女长款复古V领羊毛麻修身毛织开衫 【春季新品】女牛仔衬衫 女棒球领短款简约长袖夹克 女脚口不规则牛仔小脚裤 女基本牛津纺衬衫 女休闲基本款格纹衬衫 女式大廓形麻质衬衫 女情侣基本款牛仔夹克 女腰部褶裥送腰带短裤 女A型百搭可爱大衣 女贴章男友牛仔裤 女摇滚拼接连帽长款夹克外套 女飞机染整长款衬衫 女牛仔长裤潮撞色小脚裤子铅笔裤 女时髦扩型衬衫 女套头卫衣韩版灯笼袖长袖 女膝盖割破9分牛仔长裤 女摇滚拼接连帽长款夹克外套女短箱格仔衬衫 女时尚显瘦宽松白色七分阔腿裤 女破洞弹力彩色牛仔紧身七分裤 女防紫外线基本开衫 女MTEE 张权系列撞色袖子卫衣 女连帽中长牛仔派克 外套女款中长款风衣韩宽松文艺 女条纹大喇叭袖衬衫 女收腰女性化细节牛仔派克 女针织牛仔慢跑裤 【春季新品】女休闲撞色印花外套 女长款复古V领羊毛麻修身毛织开衫 【春季新品】女牛仔衬衫 女棒球领短款简约长袖夹克 女脚口不规则牛仔小脚裤 女基本牛津纺衬衫 女休闲基本款格纹衬衫 女式大廓形麻质衬衫 女情侣基本款牛仔夹克 女腰部褶裥送腰带短裤 女A型百搭可爱大衣 女贴章男友牛仔裤 女摇滚拼接连帽长款夹克外套 女飞机染整长款衬衫 女牛仔长裤潮撞色小脚裤子铅笔裤 女时髦扩型衬衫 女套头卫衣韩版灯笼袖长袖 女膝盖割破9分牛仔长裤 女摇滚拼接连帽长款夹克外套女短箱格仔衬衫 女时尚显瘦宽松白色七分阔腿裤 女破洞弹力彩色牛仔紧身七分裤 女防紫外线基本开衫 女MTEE 张权系列撞色袖子卫衣 女连帽中长牛仔派克 外套女款中长款风衣韩宽松文艺 女条纹大喇叭袖衬衫 女收腰女性化细节牛仔派克 女针织牛仔慢跑裤 【春季新品】女休闲撞色印花外套 女长款复古V领羊毛麻修身毛织开衫 【春季新品】女牛仔衬衫 女棒球领短款简约长袖夹克 女脚口不规则牛仔小脚裤 女基本牛津纺衬衫 女休闲基本款格纹衬衫 女式大廓形麻质衬衫 女情侣基本款牛仔夹克 女腰部褶裥送腰带短裤 女A型百搭可爱大衣 女贴章男友牛仔裤 女摇滚拼接连帽长款夹克外套 女飞机染整长款衬衫 女牛仔长裤潮撞色小脚裤子铅笔裤 女时髦扩型衬衫 女套头卫衣韩版灯笼袖长袖 女膝盖割破9分牛仔长裤 女摇滚拼接连帽长款夹克外套女短箱格仔衬衫 女时尚显瘦宽松白色七分阔腿裤 女破洞弹力彩色牛仔紧身七分裤 女防紫外线基本开衫 女MTEE 张权系列撞色袖子卫衣 女连帽中长牛仔派克 外套女款中长款风衣韩宽松文艺 女条纹大喇叭袖衬衫 女收腰女性化细节牛仔派克 女针织牛仔慢跑裤 【春季新品】女休闲撞色印花外套 女长款复古V领羊毛麻修身毛织开衫 【春季新品】女牛仔衬衫 女棒球领短款简约长袖夹克 女脚口不规则牛仔小脚裤 女基本牛津纺衬衫 女休闲基本款格纹衬衫 女式大廓形麻质衬衫 女情侣基本款牛仔夹克 女腰部褶裥送腰带短裤 女A型百搭可爱大衣 女贴章男友牛仔裤 女摇滚拼接连帽长款夹克外套 女飞机染整长款衬衫 女牛仔长裤潮撞色小脚裤子铅笔裤 女时髦扩型衬衫 女套头卫衣韩版灯笼袖长袖 女膝盖割破9分牛仔长裤 女摇滚拼接连帽长款夹克外套女短箱格仔衬衫 女时尚显瘦宽松白色七分阔腿裤 女破洞弹力彩色牛仔紧身七分裤 女防紫外线基本开衫 女MTEE 张权系列撞色袖子卫衣 女连帽中长牛仔派克 外套女款中长款风衣韩宽松文艺 女条纹大喇叭袖衬衫 女收腰女性化细节牛仔派克 女针织牛仔慢跑裤 【春季新品】女休闲撞色印花外套 女长款复古V领羊毛麻修身毛织开衫 【春季新品】女牛仔衬衫 女棒球领短款简约长袖夹克 女脚口不规则牛仔小脚裤 女基本牛津纺衬衫 女休闲基本款格纹衬衫 女式大廓形麻质衬衫 女情侣基本款牛仔夹克 女腰部褶裥送腰带短裤 女A型百搭可爱大衣 女贴章男友牛仔裤 女摇滚拼接连帽长款夹克外套 女飞机染整长款衬衫 女牛仔长裤潮撞色小脚裤子铅笔裤 女时髦扩型衬衫 女套头卫衣韩版灯笼袖长袖 女膝盖割破9分牛仔长裤 女摇滚拼接连帽长款夹克外套女短箱格仔衬衫 女时尚显瘦宽松白色七分阔腿裤 女破洞弹力彩色牛仔紧身七分裤 女防紫外线基本开衫 女MTEE 张权系列撞色袖子卫衣 女连帽中长牛仔派克 外套女款中长款风衣韩宽松文艺 女条纹大喇叭袖衬衫 女收腰女性化细节牛仔派克 女针织牛仔慢跑裤 【春季新品】女休闲撞色印花外套 女长款复古V领羊毛麻修身毛织开衫 【春季新品】女牛仔衬衫 女棒球领短款简约长袖夹克 女脚口不规则牛仔小脚裤 女基本牛津纺衬衫 女休闲基本款格纹衬衫 女式大廓形麻质衬衫 女情侣基本款牛仔夹克 女腰部褶裥送腰带短裤 女A型百搭可爱大衣 女贴章男友牛仔裤 女摇滚拼接连帽长款夹克外套 女飞机染整长款衬衫 女牛仔长裤潮撞色小脚裤子铅笔裤 女时髦扩型衬衫 女套头卫衣韩版灯笼袖长袖 女膝盖割破9分牛仔长裤 女摇滚拼接连帽长款夹克外套女短箱格仔衬衫 女时尚显瘦宽松白色七分阔腿裤 女破洞弹力彩色牛仔紧身七分裤 女防紫外线基本开衫 女MTEE' 
+    // console.log(brandarr);
+    // let styleclothsarr = styleclothsstr.split(' ');
+    // console.log(styleclothsarr);
+    // console.log();
+    // let spricearr = [];
+    // let pastsprice = [];
+    // let rebate = [];
+    // for(let i=0;i<220;i++){
+    //     let sprice  = parseInt(Math.random()*1000+50)+0.9;
+    //     let sprice2 = Math.floor(Math.random()*300);
+    //     spricearr[i]= sprice;
+    //     pastsprice[i] = sprice+sprice2;
+    //     rebate[i] = (3+Math.random()*5).toFixed(1);
+    // }
+    // console.log(spricearr);
+    // console.log(pastsprice);
+    // console.log(rebate);
+    // for(let i = 0; i<220;i++){
+    //     let $sql = `insert into goodslistput(imgurl,brand,rebate,styles,sale,price,shopid) values('img/goodsimg${i+1}.jpg','${brandarr[i]}','${rebate[i]}','${styleclothsarr[i]}','${spricearr[i]}','${pastsprice[i]}','${i+1}');`;
+    //     $('<li></li>').text($sql).appendTo('#output');
+    // }
+    
+
+     
+ 
+
+
+    </script>
+</body>
+</html>

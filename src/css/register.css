@@ -1,0 +1,109 @@
+#register{width: 100%;}
+.containertwo{
+    margin: 0 auto;
+    width: 980px
+
+}
+h2{
+    display: block;
+    width: 160px;
+    height: 26px;
+    background: #333;
+    text-align: center;
+    border-radius:5px; 
+    color:white;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.line{
+    height: 6px;
+    width: 100%;
+    background: #333;
+    margin-top: -3px;
+}
+.phoneregister{
+    border: 1px solid #666;
+    padding: 15px 10px;
+    margin-top: 15px;
+    
+}
+.phoneregister>h3{
+    border-bottom: 1px dotted #666;
+    text-align: start;
+    padding-left: 20px;
+    height: 20px;
+    display: block;
+    padding-bottom: 36px;
+}
+.phoneregisterl{
+    margin-left: 40px;
+}
+.phoneregisterl>li{
+    margin-top: 30px;
+}
+.phoneregisterl>li>.txtl{
+    text-align: right;
+    display: inline-block;
+}
+.phoneregisterl>li>input{
+    
+    text-align: start;
+}
+.phoneregisterl>li:nth-child(1)>input{
+    margin-left: 16px;
+}
+
+.phoneregisterl>li:nth-child(6)>input{
+    margin-left: 16px;
+}
+.phoneregisterl>li input{
+    width: 240px;
+    height: 30px;
+    box-shadow: 1px 1px 1px;
+}
+.phoneregisterl>li .pstxx{
+    font-size: 12px;
+}
+#btnone{
+    cursor: pointer;
+    width: 152px;
+    height: 34px;
+    border-radius:5px;
+    background: url("../img/jlt.png")
+    -227px -169px; 
+}
+.changeworning{
+    display: inline-block;
+    width: 100px;
+    height: 22px;
+    background: rgb(31, 30, 30);
+    color:#ccc;
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer;
+    margin-left: 10px;
+    position: relative;
+}
+.changeworning .pscw{
+    background: #333;
+    color:orangered;
+    position: absolute;
+    left: -107px;
+    top: 37px;
+    display: none;
+}
+#btntwo{
+    cursor: pointer;
+    width: 215px;
+    height: 35px;
+    border-radius:5px;
+    background: url("../img/jlt.png")
+    0 -130px; 
+}
+#bottom{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
